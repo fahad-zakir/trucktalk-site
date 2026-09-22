@@ -409,12 +409,26 @@ img {
 }
 
 .strip-label {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.55rem;
   font-family: var(--font-display);
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--amber);
+  font-weight: 700;
+}
+
+.strip-langs {
+  margin: 0 0 0.9rem;
+  color: var(--mute);
+  font-size: 0.98rem;
+  max-width: 40rem;
+  line-height: 1.45;
+}
+
+.strip-langs strong {
+  color: var(--text);
+  font-family: var(--font-display);
   font-weight: 700;
 }
 
@@ -432,6 +446,12 @@ img {
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 0.55rem 0.95rem;
+}
+
+.strip-note {
+  margin: 0.85rem 0 0;
+  color: var(--mute-2);
+  font-size: 0.88rem;
 }
 
 .section {
