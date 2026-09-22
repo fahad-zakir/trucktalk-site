@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TruckTalk — Hear your apps. Talk back.</title>
+    <meta
+      name="description"
+      content="Voice-first Telegram co-pilot for truck drivers. Drive Mode reads messages aloud. Speak to reply. Confirm before anything sends."
+    />
+    <meta property="og:title" content="TruckTalk — Hear your apps. Talk back." />
+    <meta
+      property="og:description"
+      content="Hands-free Telegram for the cab. Hear incoming. Speak replies. Confirm before send."
+    />
+    <meta property="og:image" content="assets/app-screenshot.png" />
+    <link rel="icon" href="assets/icon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <img src="assets/icon.png" alt="" width="40" height="40" />
+        <span>TruckTalk</span>
+      </a>
+      <nav class="nav">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#fleets">Fleets</a>
+        <a href="#waitlist" class="nav-cta">Get early access</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="brand-mark">TruckTalk</p>
+          <h1>Hear your apps.<br />Talk back.</h1>
+          <p class="lede">
+            Drive Mode reads Telegram aloud in the cab. Speak your reply. Confirm — then it sends.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#waitlist">I’m a driver</a>
+            <a class="btn btn-ghost" href="#fleets">I’m a fleet</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-glow" aria-hidden="true"></div>
+          <img
+            class="phone-shot"
+            src="assets/app-screenshot.png"
+            alt="TruckTalk app showing Drive Mode on, language picker, and Speak button"
+            width="390"
+            height="844"
+          />
+        </div>
+      </section>
+
+      <section class="strip" aria-label="Voice examples">
+        <p class="strip-label">Say it like this</p>
+        <div class="strip-lines">
+          <code>message Dispatch my ETA is 9:30pm</code>
+          <code>reply Mike on my way</code>
+          <code>what’s the rate on this load?</code>
+        </div>
+      </section>
+
+      <section id="how" class="section how">
+        <header class="section-head">
+          <h2>How it works</h2>
+          <p>Three steps. Eyes on the road.</p>
+        </header>
+        <ol class="steps">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Hear</h3>
+            <p>Drive Mode reads new Telegram messages — even while you’re in Maps or the phone is locked.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Speak</h3>
+            <p>Tap Speak (Bluetooth PTT when wired). Name the contact. Say the message.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Confirm</h3>
+            <p>Nothing sends until you say yes — or tap Confirm. Cancel anytime.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="features" class="section features">
+        <header class="section-head">
+          <h2>Built for the cab</h2>
+          <p>Real workflow features drivers use between weigh stations.</p>
+        </header>
+        <div class="feature-grid">
+          <article>
+            <h3>Drive Mode</h3>
+            <p>Incoming Telegram text is spoken aloud. Load photos ask “Want the details?” before a full readout.</p>
+          </article>
+          <article>
+            <h3>Load Q&amp;A</h3>
+            <p>Keep asking about a load board image — rate, stops, times — until you message a contact.</p>
+          </article>
+          <article>
+            <h3>Voice nicknames</h3>
+            <p>Map hard chat names to what you actually say: “LDU”, “E 031”, “Mike”.</p>
+          </article>
+          <article>
+            <h3>Multilingual</h3>
+            <p>Hear and speak in English, Spanish, Russian, or Turkish.</p>
+          </article>
+          <article>
+            <h3>Confirm before send</h3>
+            <p>Safety-first. Voice yes/no or on-screen Confirm/Cancel. No surprise messages.</p>
+          </article>
+          <article>
+            <h3>Interrupt anytime</h3>
+            <p>Speak cuts off the readout mid-sentence so you can barge in when it matters.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="fleets" class="section fleets">
+        <div class="fleets-copy">
+          <h2>For fleets that care about eyes-on-road</h2>
+          <p>
+            Give drivers a consistent voice workflow instead of juggling Telegram while rolling.
+            Confirmation-gated sends. Spoken load details. Less time staring at the screen.
+          </p>
+          <ul>
+            <li>Standard spoken commands across the fleet</li>
+            <li>Nickname maps for dispatch / broker chats</li>
+            <li>Works alongside navigation — alerts when TruckTalk isn’t focused</li>
+          </ul>
+          <a class="btn btn-primary" href="#waitlist">Talk to us about fleet access</a>
+        </div>
+        <aside class="fleets-aside">
+          <p class="quote">
+            “Always name the contact — message Dispatch my ETA is 9:30pm · reply Mike on my way”
+          </p>
+          <p class="quote-meta">In-app driver hint</p>
+        </aside>
+      </section>
+
+      <section class="section drivers">
+        <header class="section-head">
+          <h2>For owner-ops &amp; company drivers</h2>
+          <p>Telegram stays your channel. TruckTalk is the voice layer.</p>
+        </header>
+        <div class="driver-points">
+          <p><strong>Locked phone / Maps open</strong> — still get the readout.</p>
+          <p><strong>Load board photo drops in</strong> — ask for details, then follow-ups.</p>
+          <p><strong>Hard contact names</strong> — teach nicknames once, say them forever.</p>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <header class="section-head">
+          <h2>FAQ</h2>
+        </header>
+        <div class="faq-list">
+          <details open>
+            <summary>Is this WhatsApp or a full TMS?</summary>
+            <p>No. TruckTalk is Telegram-first today — send, read, call, and Drive Mode announcements. Not a TMS replacement.</p>
+          </details>
+          <details>
+            <summary>Will it send without me knowing?</summary>
+            <p>No. Sends and calls require confirmation — voice yes/no or Confirm/Cancel on screen.</p>
+          </details>
+          <details>
+            <summary>What languages work?</summary>
+            <p>English, Spanish, Russian, and Turkish for hearing commands and speaking replies.</p>
+          </details>
+          <details>
+            <summary>Can it read load board screenshots?</summary>
+            <p>Yes. Incoming load images can be summarized, then you can keep asking questions about that load until you message someone.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="waitlist" class="section waitlist">
+        <header class="section-head">
+          <h2>Get early access</h2>
+          <p>Drivers and fleets — tell us how you run Telegram on the road.</p>
+        </header>
+        <form class="waitlist-form" action="mailto:hello@trucktalk.app" method="get" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Fahad" autocomplete="name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@company.com" autocomplete="email" />
+          </label>
+          <label>
+            I am a…
+            <select name="role" required>
+              <option value="driver">Driver / owner-op</option>
+              <option value="fleet">Fleet / ops</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label class="full">
+            Notes (optional)
+            <textarea name="notes" rows="3" placeholder="Telegram-heavy dispatch? Fleet size?"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">Request access</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="" width="32" height="32" />
+        <div>
+          <strong>TruckTalk</strong>
+          <p>Hear your apps. Talk back.</p>
+        </div>
+      </div>
+      <p class="footer-note">
+        Acts only after confirmation. Telegram connects through your TruckTalk server — built for the cab, not autonomous spam.
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
