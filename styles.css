@@ -277,6 +277,63 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.pricing {
+  margin-top: 2rem;
+  max-width: 40rem;
+  padding: 1.5rem 1.4rem 1.6rem;
+  border-radius: var(--radius);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: linear-gradient(165deg, rgba(245, 158, 11, 0.1), rgba(20, 28, 46, 0.7));
+}
+
+.pricing-eyebrow {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.pricing-price {
+  margin: 0.55rem 0 0.15rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 2.3rem);
+  letter-spacing: -0.03em;
+}
+
+.pricing-price span {
+  color: var(--text);
+}
+
+.pricing-title {
+  margin: 0 0 0.75rem;
+  color: var(--cyan);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.pricing-copy {
+  margin: 0 0 1rem;
+  color: var(--mute);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.pricing-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--mute);
+  font-size: 0.92rem;
+}
+
+.pricing-list li {
+  margin-bottom: 0.3rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
