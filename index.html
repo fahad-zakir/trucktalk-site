@@ -6,12 +6,12 @@
     <title>TruckTalk — Hear your apps. Talk back.</title>
     <meta
       name="description"
-      content="Voice-first Telegram co-pilot for truck drivers. Drive Mode reads messages aloud. Speak to reply. Confirm before anything sends."
+      content="Bluetooth voice for the cab. TruckTalk reads load boards aloud, answers questions about pay and stops, and lets you reply on Telegram — hands-free."
     />
     <meta property="og:title" content="TruckTalk — Hear your apps. Talk back." />
     <meta
       property="og:description"
-      content="Hands-free Telegram for the cab. Hear incoming. Speak replies. Confirm before send."
+      content="Decipher load boards by voice over Bluetooth. Ask about rate, stops, miles — then reply without looking at the screen."
     />
     <meta property="og:image" content="assets/app-screenshot.png" />
     <link rel="icon" href="assets/icon.png" type="image/png" />
@@ -32,10 +32,10 @@
         <span>TruckTalk</span>
       </a>
       <nav class="nav">
+        <a href="#loads">Loads</a>
         <a href="#how">How it works</a>
         <a href="#features">Features</a>
-        <a href="#fleets">Fleets</a>
-        <a href="#waitlist" class="nav-cta">Get early access</a>
+        <a href="#download" class="nav-cta">Get the app</a>
       </nav>
     </header>
 
@@ -45,11 +45,34 @@
           <p class="brand-mark">TruckTalk</p>
           <h1>Hear your apps.<br />Talk back.</h1>
           <p class="lede">
-            Drive Mode reads Telegram aloud in the cab. Speak your reply. Confirm — then it sends.
+            Your main job in the cab: understand the load without staring at the phone.
+            TruckTalk reads load boards aloud over Bluetooth, answers follow-up questions,
+            then lets you message dispatch — eyes on the road.
           </p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="#waitlist">I’m a driver</a>
-            <a class="btn btn-ghost" href="#fleets">I’m a fleet</a>
+            <a class="btn btn-primary" href="#download">Download</a>
+            <a class="btn btn-ghost" href="#loads">See load voice</a>
+          </div>
+          <div class="store-row" id="download-hero">
+            <a class="store-badge" href="#download" aria-label="Download on the App Store">
+              <svg viewBox="0 0 120 40" width="135" height="45" role="img">
+                <rect width="120" height="40" rx="6" fill="#0B1220" stroke="#334155" />
+                <path fill="#F8FAFC" d="M24.5 10.2c1.1-1.4 1.9-3.3 1.7-5.2-1.6.1-3.6 1.1-4.7 2.5-1 1.2-1.9 3.1-1.7 5 1.8.1 3.6-1 4.7-2.3zm4.4 1.2c-2.5-.1-4.6 1.4-5.8 1.4-1.2 0-3-.1-4.7-1.5-2.4-1.4-4.1-4.1-4.1-7.3 0-3.4 2.2-5.1 4.2-5.1 1.2 0 2.8.9 4.1.9 1.2 0 2.5-1 4.3-.9 1.7.1 3.1.9 4.1 2.3-3.6 2-3 6.7.5 8.4-.8 2.2-2.1 4.4-3.6 6.1-1.2 1.4-2.4 2.7-3.9 2.7-1.5 0-1.9-1-3.9-1-1.9 0-2.5 1-4 1-1.5 0-2.6-1.3-3.9-2.8-1.7-2.3-3-6.5-3-6.5.1-.1 5.1-2 5.1-7.3 0-4.6 3.7-6.8 3.9-6.9z" transform="translate(8,8) scale(0.55)" />
+                <text x="42" y="15" fill="#94A3B8" font-size="7" font-family="system-ui,sans-serif">Download on the</text>
+                <text x="42" y="28" fill="#F8FAFC" font-size="12" font-weight="700" font-family="system-ui,sans-serif">App Store</text>
+              </svg>
+            </a>
+            <a class="store-badge" href="#download" aria-label="Get it on Google Play">
+              <svg viewBox="0 0 135 40" width="148" height="45" role="img">
+                <rect width="135" height="40" rx="6" fill="#0B1220" stroke="#334155" />
+                <path fill="#EA4335" d="M12 8.2 24.5 20 12 31.8z" />
+                <path fill="#FBBC04" d="M12 31.8 24.5 20 29 24.2 16.2 33.5z" />
+                <path fill="#4285F4" d="M29 15.8 24.5 20 12 8.2 16.2 6.5z" />
+                <path fill="#34A853" d="M24.5 20 29 15.8 32.5 18.2v3.6L29 24.2z" />
+                <text x="40" y="15" fill="#94A3B8" font-size="7" font-family="system-ui,sans-serif">GET IT ON</text>
+                <text x="40" y="28" fill="#F8FAFC" font-size="12" font-weight="700" font-family="system-ui,sans-serif">Google Play</text>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="hero-visual">
@@ -65,11 +88,53 @@
       </section>
 
       <section class="strip" aria-label="Voice examples">
-        <p class="strip-label">Say it like this</p>
+        <p class="strip-label">Over Bluetooth — say it like this</p>
         <div class="strip-lines">
+          <code>want the details?</code>
+          <code>what’s the rate?</code>
+          <code>how many miles deadhead?</code>
           <code>message Dispatch my ETA is 9:30pm</code>
-          <code>reply Mike on my way</code>
-          <code>what’s the rate on this load?</code>
+        </div>
+      </section>
+
+      <section id="loads" class="section load-feature">
+        <header class="section-head">
+          <h2>Loads, by voice</h2>
+          <p>
+            The core of TruckTalk: when a load board lands in Telegram, it decipheres the board —
+            pay, stops, miles, deadhead, trailer — reads it aloud, then keeps answering questions
+            until you message a contact.
+          </p>
+        </header>
+        <div class="load-layout">
+          <figure class="load-shot-wrap">
+            <img
+              class="load-shot"
+              src="assets/load-board.png"
+              alt="Load board showing route, deadhead, pay per mile, stops, and total payout"
+              width="960"
+              height="420"
+            />
+            <figcaption>Real load boards become spoken answers — not another screen to squint at.</figcaption>
+          </figure>
+          <ul class="load-beats">
+            <li>
+              <strong>Decipher</strong>
+              <span>OCR + vision turn the board into stops, miles, rate, and pay.</span>
+            </li>
+            <li>
+              <strong>Read aloud</strong>
+              <span>“Want the details?” — then a clear spoken summary over your headset.</span>
+            </li>
+            <li>
+              <strong>Ask anything</strong>
+              <span>Rate, second stop, layover, deadhead — keep asking via Speak / Bluetooth PTT.</span>
+            </li>
+            <li>
+              <strong>Then act</strong>
+              <span>Message dispatch or your broker when you’re ready — confirm before send.</span>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -82,12 +147,12 @@
           <li>
             <span class="step-num">01</span>
             <h3>Hear</h3>
-            <p>Drive Mode reads new Telegram messages — even while you’re in Maps or the phone is locked.</p>
+            <p>Drive Mode reads new Telegram messages — including load images — while you’re in Maps or the phone is locked.</p>
           </li>
           <li>
             <span class="step-num">02</span>
             <h3>Speak</h3>
-            <p>Tap Speak (Bluetooth PTT when wired). Name the contact. Say the message.</p>
+            <p>Tap Speak or use Bluetooth PTT. Ask about the load, or name a contact and dictate the message.</p>
           </li>
           <li>
             <span class="step-num">03</span>
@@ -100,16 +165,20 @@
       <section id="features" class="section features">
         <header class="section-head">
           <h2>Built for the cab</h2>
-          <p>Real workflow features drivers use between weigh stations.</p>
+          <p>Everything else that keeps the loop tight between weigh stations.</p>
         </header>
         <div class="feature-grid">
           <article>
-            <h3>Drive Mode</h3>
-            <p>Incoming Telegram text is spoken aloud. Load photos ask “Want the details?” before a full readout.</p>
+            <h3>Bluetooth voice</h3>
+            <p>Built for headset / PTT. Speak cuts off the readout so you can barge in mid-summary.</p>
           </article>
           <article>
-            <h3>Load Q&amp;A</h3>
-            <p>Keep asking about a load board image — rate, stops, times — until you message a contact.</p>
+            <h3>Load Q&amp;A loop</h3>
+            <p>Keep asking about the same load until you message someone — then context clears.</p>
+          </article>
+          <article>
+            <h3>Drive Mode alerts</h3>
+            <p>Incoming Telegram spoken when TruckTalk isn’t focused. No banner spam when you’re already in the app.</p>
           </article>
           <article>
             <h3>Voice nicknames</h3>
@@ -123,10 +192,6 @@
             <h3>Confirm before send</h3>
             <p>Safety-first. Voice yes/no or on-screen Confirm/Cancel. No surprise messages.</p>
           </article>
-          <article>
-            <h3>Interrupt anytime</h3>
-            <p>Speak cuts off the readout mid-sentence so you can barge in when it matters.</p>
-          </article>
         </div>
       </section>
 
@@ -134,11 +199,11 @@
         <div class="fleets-copy">
           <h2>For fleets that care about eyes-on-road</h2>
           <p>
-            Give drivers a consistent voice workflow instead of juggling Telegram while rolling.
-            Confirmation-gated sends. Spoken load details. Less time staring at the screen.
+            Give drivers a consistent voice workflow instead of juggling load boards and Telegram while rolling.
+            Spoken load details. Confirmation-gated sends. Less time staring at the screen.
           </p>
           <ul>
-            <li>Standard spoken commands across the fleet</li>
+            <li>Voice load intelligence across the fleet</li>
             <li>Nickname maps for dispatch / broker chats</li>
             <li>Works alongside navigation — alerts when TruckTalk isn’t focused</li>
           </ul>
@@ -146,21 +211,46 @@
         </div>
         <aside class="fleets-aside">
           <p class="quote">
-            “Always name the contact — message Dispatch my ETA is 9:30pm · reply Mike on my way”
+            “What’s the rate? … And the second stop? … Message Dispatch my ETA is 9:30pm.”
           </p>
-          <p class="quote-meta">In-app driver hint</p>
+          <p class="quote-meta">Load Q&amp;A → reply, all by voice</p>
         </aside>
       </section>
 
       <section class="section drivers">
         <header class="section-head">
           <h2>For owner-ops &amp; company drivers</h2>
-          <p>Telegram stays your channel. TruckTalk is the voice layer.</p>
+          <p>Telegram stays your channel. TruckTalk is the voice layer for loads and replies.</p>
         </header>
         <div class="driver-points">
-          <p><strong>Locked phone / Maps open</strong> — still get the readout.</p>
-          <p><strong>Load board photo drops in</strong> — ask for details, then follow-ups.</p>
+          <p><strong>Load board photo drops in</strong> — hear the summary, then ask follow-ups.</p>
+          <p><strong>Locked phone / Maps open</strong> — still get the readout on your headset.</p>
           <p><strong>Hard contact names</strong> — teach nicknames once, say them forever.</p>
+        </div>
+      </section>
+
+      <section id="download" class="section download">
+        <header class="section-head">
+          <h2>Get TruckTalk</h2>
+          <p>Coming soon on the App Store and Google Play. Join early access while we finish the store builds.</p>
+        </header>
+        <div class="store-row store-row-lg">
+          <a class="store-badge" href="#waitlist" aria-label="Download on the App Store (coming soon)">
+            <svg viewBox="0 0 120 40" width="160" height="54" role="img">
+              <rect width="120" height="40" rx="6" fill="#0B1220" stroke="#334155" />
+              <text x="14" y="15" fill="#94A3B8" font-size="7" font-family="system-ui,sans-serif">Download on the</text>
+              <text x="14" y="28" fill="#F8FAFC" font-size="13" font-weight="700" font-family="system-ui,sans-serif">App Store</text>
+            </svg>
+            <span class="soon">Coming soon</span>
+          </a>
+          <a class="store-badge" href="#waitlist" aria-label="Get it on Google Play (coming soon)">
+            <svg viewBox="0 0 135 40" width="175" height="54" role="img">
+              <rect width="135" height="40" rx="6" fill="#0B1220" stroke="#334155" />
+              <text x="14" y="15" fill="#94A3B8" font-size="7" font-family="system-ui,sans-serif">GET IT ON</text>
+              <text x="14" y="28" fill="#F8FAFC" font-size="13" font-weight="700" font-family="system-ui,sans-serif">Google Play</text>
+            </svg>
+            <span class="soon">Coming soon</span>
+          </a>
         </div>
       </section>
 
@@ -170,6 +260,13 @@
         </header>
         <div class="faq-list">
           <details open>
+            <summary>What does TruckTalk do with load boards?</summary>
+            <p>
+              It reads the image, extracts stops, miles, deadhead, rate, and pay, speaks a summary,
+              then answers follow-up questions over Bluetooth until you message a contact.
+            </p>
+          </details>
+          <details>
             <summary>Is this WhatsApp or a full TMS?</summary>
             <p>No. TruckTalk is Telegram-first today — send, read, call, and Drive Mode announcements. Not a TMS replacement.</p>
           </details>
@@ -181,17 +278,13 @@
             <summary>What languages work?</summary>
             <p>English, Spanish, Russian, and Turkish for hearing commands and speaking replies.</p>
           </details>
-          <details>
-            <summary>Can it read load board screenshots?</summary>
-            <p>Yes. Incoming load images can be summarized, then you can keep asking questions about that load until you message someone.</p>
-          </details>
         </div>
       </section>
 
       <section id="waitlist" class="section waitlist">
         <header class="section-head">
           <h2>Get early access</h2>
-          <p>Drivers and fleets — tell us how you run Telegram on the road.</p>
+          <p>Drivers and fleets — tell us how you run loads and Telegram on the road.</p>
         </header>
         <form class="waitlist-form" action="mailto:hello@trucktalk.app" method="get" enctype="text/plain">
           <label>
@@ -212,7 +305,7 @@
           </label>
           <label class="full">
             Notes (optional)
-            <textarea name="notes" rows="3" placeholder="Telegram-heavy dispatch? Fleet size?"></textarea>
+            <textarea name="notes" rows="3" placeholder="Load boards on Telegram? Fleet size?"></textarea>
           </label>
           <button type="submit" class="btn btn-primary full">Request access</button>
         </form>
@@ -228,7 +321,8 @@
         </div>
       </div>
       <p class="footer-note">
-        Acts only after confirmation. Telegram connects through your TruckTalk server — built for the cab, not autonomous spam.
+        Acts only after confirmation. Load intelligence + Telegram voice for the cab — not autonomous spam.
+        App Store and Google Play badges are placeholders until store release.
       </p>
     </footer>
 
