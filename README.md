@@ -1,6 +1,6 @@
-# TruckTalk marketing site
+# Rigly marketing site
 
-Public landing page for TruckTalk — voice-first Telegram co-pilot for truck drivers.
+Public landing page for Rigly — voice-first Telegram co-pilot for truck drivers.
 
 **Tagline:** Hear your apps. Talk back.
 

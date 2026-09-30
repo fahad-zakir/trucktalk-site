@@ -10,13 +10,13 @@
     const role = String(data.get("role") || "").trim();
     const notes = String(data.get("notes") || "").trim();
 
-    const subject = encodeURIComponent(`TruckTalk early access — ${role}`);
+    const subject = encodeURIComponent(`Rigly early access — ${role}`);
     const body = encodeURIComponent(
       [`Name: ${name}`, `Email: ${email}`, `Role: ${role}`, notes ? `Notes: ${notes}` : ""]
         .filter(Boolean)
         .join("\n"),
     );
 
-    window.location.href = `mailto:hello@trucktalk.app?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:fahadzakir@gmail.com?subject=${subject}&body=${body}`;
   });
 })();
