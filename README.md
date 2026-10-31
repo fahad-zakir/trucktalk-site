@@ -18,7 +18,9 @@ Open http://localhost:4173
 GitHub Pages deploys on every push to `main` (workflow: `.github/workflows/pages.yml`).
 
 **Live Support URL (App Store):**  
-https://fahad-zakir.github.io/trucktalk-site/support.html
+https://www.fahadzakir.com/trucktalk-site/support.html
+
+Also: https://fahad-zakir.github.io/trucktalk-site/support.html
 
 **Privacy:**  
-https://fahad-zakir.github.io/trucktalk-site/privacy.html
+https://www.fahadzakir.com/trucktalk-site/privacy.html
