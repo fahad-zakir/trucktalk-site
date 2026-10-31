@@ -15,4 +15,10 @@ Open http://localhost:4173
 
 ## Deploy
 
-Static files — drop on GitHub Pages, Netlify, Vercel, or any static host.
+GitHub Pages deploys on every push to `main` (workflow: `.github/workflows/pages.yml`).
+
+**Live Support URL (App Store):**  
+https://fahad-zakir.github.io/trucktalk-site/support.html
+
+**Privacy:**  
+https://fahad-zakir.github.io/trucktalk-site/privacy.html
